@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<body>
+		<h1>Listar Personagens, Planetas e Naves do StarWars</h1>
+			
+				
+					<select id="selectPersonagem">
+						<option value="1">Luke Skywalker</option>
+						<option value="2">C-3PO</option>
+						<option value="3">R2-D2</option>
+						<option value="4">Darth Vader</option>
+						<option value="5">Leia Organa</option>
+						
+					</select>
+					<button class="buscarPersonagem">Buscar Personagem</button>
+					<div id="informacaoPersonagem">
+					</div>
+					</br>
+					</br>
+				
+					<select id="selectPlaneta">
+						<option value="9">Coruscant</option>
+						<option value="10">Kamino</option>
+						<option value="11">Geonosis</option>
+						<option value="12">Utapau</option>
+						<option value="13">Mustafar</option>
+					</select>
+					<button class="buscarPlaneta">Buscar Planeta</button>
+					<div id="informacaoPlaneta">
+					</div>
+					</br>
+					</br>
+
+				
+					<select id="selectNave">
+						<button type="button" onclick="mostrarNave();">Listar Nave</button>
+						<option value="2">CR90 corvette</option>
+						<option value="3">Star Destroyer</option>
+						<option value="4">Sentinel-class landing craft</option>
+						<option value="9">Death Star</option>
+						<option value="10">Millennium Falcon</option>
+					</select>
+					<button class="buscarNave">Buscar Nave</button>
+					<div id="informacaoNave">
+					</div>
+
+			
+		<script src="js/jquery.min.js"></script>
+		<script src="js/app.js"></script>
+		<script src="cordova.js"></script>
+	</body>
+</html>
